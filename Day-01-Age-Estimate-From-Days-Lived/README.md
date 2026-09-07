@@ -1,108 +1,64 @@
-# 🚀 ALTA BASE 111
+# 🚀 Day 01/111 - ALTA BASE 111
 
-> **111 Days. 111 Problems. One Consistent Coding Journey.**
+## 💡 Problem: Age Estimate From Days Lived
 
-Welcome to my **ALTA BASE 111** coding challenge repository! 🔥
+**Difficulty:** Easy
+**Topic:** Programming Basics • Integer Division • Modulo Operator
 
-This repository contains my daily solutions as I work through **111 programming problems**, focusing on improving my problem-solving skills and strengthening my programming fundamentals.
+### 🧠 What I Learned
 
-## 🎯 My Goal
+Today I learned how to estimate a person's completed years and remaining days from the **total number of days lived**.
 
-The goal is not just to complete 111 problems.
+This problem helped me understand two important programming operators:
 
-I want to:
+* `/` **Integer Division** — used to calculate the completed years
+* `%` **Modulo Operator** — used to find the remaining days
 
-* 🧠 Improve logical thinking
-* 💻 Strengthen programming fundamentals
-* 📚 Build DSA fundamentals
-* ⚡ Learn to approach problems independently
-* 🎯 Prepare for coding interviews and placements
-* 🔥 Build consistency through daily practice
+### 🔢 Basic Logic
 
-## 📅 Challenge Structure
-
-**Day 01 → Problem 01**
-**Day 02 → Problem 02**
-**Day 03 → Problem 03**
-...
-**Day 111 → Problem 111**
-
-Every day, I will try to:
-
-1. Understand the problem
-2. Think about the logic
-3. Write the solution
-4. Test and debug it
-5. Understand what I learned
-
-## 📂 Repository Structure
+Suppose the total number of days is:
 
 ```text
-alta-base-111/
-│
-├── Day-01/
-│   └── solution
-│
-├── Day-02/
-│   └── solution
-│
-├── Day-03/
-│   └── solution
-│
-├── ...
-│
-└── Day-111/
-    └── solution
+totalDays = 1000
 ```
 
-## 📈 Progress
+To calculate the completed years:
 
-| Day     | Status      |
-| ------- | ----------- |
-| 01/111  | ✅ Completed |
-| 02/111  | ⏳ Upcoming  |
-| 03/111  | ⏳ Upcoming  |
-| ...     | ⏳           |
-| 111/111 | ⏳ Upcoming  |
+```text
+years = totalDays / 365
+```
 
-🔥 **Current Streak: 1/111**
+To calculate the remaining days:
 
-## 💡 Day 01
+```text
+remainingDays = totalDays % 365
+```
 
-### Age Estimate From Days Lived
+The division gives us the number of complete years, while the modulo operator gives us the days left after those complete years.
 
-**Concepts Learned:**
+> **Note:** This is a simple estimation using 365 days per year.
 
-* Integer Division `/`
-* Modulo Operator `%`
+## 🎯 What This Problem Strengthened
 
-Integer division helps calculate the completed years, while the modulo operator helps find the remaining days.
+* Understanding integer division
+* Understanding the modulo operator
+* Working with variables
+* Basic arithmetic operations
+* Step-by-step logical thinking
+* Problem-solving fundamentals
 
-A simple problem, but a great start to building strong programming fundamentals.
+Although this is a simple problem, it is a great starting point for understanding how basic operators can be combined to solve real-world problems.
 
-## 🛠️ What I'm Focusing On
+## 🔥 Challenge Progress
 
-I'm not trying to memorize solutions.
+**Day 01/111 — Completed ✅**
 
-I'm focusing on understanding **why the solution works**, improving my logic, and becoming better at solving problems independently.
+**Streak: 1/111 — Unbroken 🔥**
 
 > **One problem a day. One concept at a time. One step closer to becoming a better programmer. 🚀**
 
-## 🔥 Challenge Status
+### 🚀 ALTA BASE 111
 
-**ALTA BASE 111 — IN PROGRESS**
-
-📅 **Duration:** 111 Days
-💻 **Target:** 111 Problems
-🎯 **Focus:** Programming + Problem Solving + DSA
-🔥 **Goal:** Consistency
-
----
-
-### ⭐ Follow the Journey
-
-I'll keep updating this repository throughout the challenge.
-
-**111 days. 111 problems. Let's build. 🚀**
+**Learn → Practice → Solve → Improve → Repeat**
 
 #ALTABASE111 #DSA #CodingChallenge #ProblemSolving #Programming #CodingJourney
