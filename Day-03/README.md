@@ -1,57 +1,61 @@
-# 🚀 Day 02/111 - ALTA BASE 111
+# 🚀 Day 03/111 - ALTA BASE 111
 
-## 💡 Problem: Swap Two Numbers Using a Temporary Variable
+## 💡 Problem: Toggle a Boolean Flag
 
 **Difficulty:** Easy
-**Topic:** Programming Basics • Variables
+**Topic:** Programming Basics • Boolean • Logical NOT Operator
 
 ### 🧠 What I Learned
 
-Today I learned how to **swap the values of two variables using a temporary variable**.
+Today I learned about **boolean values** and how to change them using the **NOT operator (`!`)**.
 
-A temporary variable acts like a small storage space that helps us safely store one value while exchanging the values of two variables.
+A boolean can have only two values: `true` or `false`. Using `!` changes the value to its opposite.
 
 ### 🔄 Basic Logic
 
-Suppose we have:
+If:
 
 ```text
-a = 10
-b = 20
+flag = true
 ```
 
-To swap them:
+Then:
 
 ```text
-temp = a
-a = b
-b = temp
+flag = !flag
 ```
 
-After swapping:
+The value becomes:
 
 ```text
-a = 20
-b = 10
+flag = false
 ```
 
-This helped me understand how **variables store values** and how we can manipulate those values using simple programming logic.
+And if the value is `false`, using `!` will make it `true`.
 
-## 🎯 What This Problem Strengthened
+```text
+true  → false
+false → true
+```
 
-* Understanding variables
-* Assigning values to variables
-* Using a temporary variable
-* Basic problem-solving
-* Step-by-step logical thinking
+This was a simple problem, but it helped me understand how boolean values work and how we can change them using a logical operator.
 
-Even though this is a simple problem, understanding these fundamentals is important before moving toward more advanced programming and DSA concepts.
+## 🎯 What I Learned From This Problem
+
+* Boolean values
+* `true` and `false`
+* Logical NOT operator `!`
+* Working with variables
+* Changing a variable's state
+* Basic logical thinking
+
+Boolean values are useful in many programs where we need to keep track of something like **active/inactive, online/offline, or enabled/disabled**.
 
 ## 🔥 Challenge Progress
 
-**Day 02/111 — Completed ✅**
+**Day 03/111 — Completed ✅**
 
-**Streak: 2/111 — Unbroken 🔥**
+**Streak: 3/111 — Unbroken 🔥**
 
 > **One problem a day. One concept at a time. One step closer to becoming a better programmer. 🚀**
 
