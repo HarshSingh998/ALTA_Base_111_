@@ -1,57 +1,84 @@
-# 🚀 Day 02/111 - ALTA BASE 111
+# 🚀 Day 04/111 - ALTA BASE 111
 
-## 💡 Problem: Swap Two Numbers Using a Temporary Variable
+## 💡 Problem: Final Price After Discount and Tax
 
 **Difficulty:** Easy
-**Topic:** Programming Basics • Variables
+**Topic:** Programming Basics • Operators • Percentage Calculation
 
 ### 🧠 What I Learned
 
-Today I learned how to **swap the values of two variables using a temporary variable**.
+Today I learned how to calculate the **final price of an item** after applying a **discount** and then adding **sales tax**.
 
-A temporary variable acts like a small storage space that helps us safely store one value while exchanging the values of two variables.
+The important part of this problem is that the **discount is applied first**, and the tax is calculated on the **discounted price**.
 
 ### 🔄 Basic Logic
 
-Suppose we have:
+For example, if the original price is `1000`, discount is `10%`, and tax is `5%`:
 
 ```text
-a = 10
-b = 20
+Original Price = 1000
+Discount = 10%
+Tax = 5%
 ```
 
-To swap them:
+First, calculate the discount:
 
 ```text
-temp = a
-a = b
-b = temp
+Discount Amount = 1000 × (10 / 100)
+                = 100
 ```
 
-After swapping:
+Then calculate the discounted price:
 
 ```text
-a = 20
-b = 10
+Discounted Price = 1000 - 100
+                 = 900
 ```
 
-This helped me understand how **variables store values** and how we can manipulate those values using simple programming logic.
+Now apply tax to the discounted price:
 
-## 🎯 What This Problem Strengthened
+```text
+Tax Amount = 900 × (5 / 100)
+           = 45
+```
 
-* Understanding variables
-* Assigning values to variables
-* Using a temporary variable
-* Basic problem-solving
-* Step-by-step logical thinking
+Finally:
 
-Even though this is a simple problem, understanding these fundamentals is important before moving toward more advanced programming and DSA concepts.
+```text
+Final Price = 900 + 45
+            = 945
+```
+
+So the final price is:
+
+```text
+Discounted Price: 900.00
+Final Price: 945.00
+```
+
+This problem helped me understand how arithmetic operators and percentage calculations can be used together to solve a real-world problem.
+
+## 🎯 What I Learned From This Problem
+
+* Working with variables
+* `double` data type
+* Arithmetic operators
+* Addition and subtraction
+* Multiplication and division
+* Percentage calculation
+* Applying discount
+* Calculating tax
+* Working with decimal values
+* Formatting output to two decimal places
+* Solving a real-world programming problem
+
+The key learning was that **tax should be calculated after the discount**, using the discounted price.
 
 ## 🔥 Challenge Progress
 
-**Day 02/111 — Completed ✅**
+**Day 04/111 — Completed ✅**
 
-**Streak: 2/111 — Unbroken 🔥**
+**Streak: 4/111 — Unbroken 🔥**
 
 > **One problem a day. One concept at a time. One step closer to becoming a better programmer. 🚀**
 
