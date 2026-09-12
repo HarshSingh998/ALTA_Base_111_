@@ -1,6 +1,4 @@
-Bilkul bhai 👍 **same exact format** mein Day 06 ka README:
 
-````markdown
 # 🚀 Day 06/111 - ALTA BASE 111
 
 ## 💡 Problem: Largest of Three Numbers

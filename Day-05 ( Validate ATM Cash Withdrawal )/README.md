@@ -1,6 +1,4 @@
-Bilkul bhai 👍 **same exact Day 03 format** mein, bas topic change karke:
 
-````markdown
 # 🚀 Day 05/111 - ALTA BASE 111
 
 ## 💡 Problem: Validate ATM Cash Withdrawal

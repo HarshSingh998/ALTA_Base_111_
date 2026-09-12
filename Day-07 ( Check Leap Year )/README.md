@@ -1,6 +1,3 @@
-Bilkul bhai 👍 **same exact README format** mein Day 07:
-
-````markdown
 # 🚀 Day 07/111 - ALTA BASE 111
 
 ## 💡 Problem: Check Leap Year
