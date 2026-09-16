@@ -1,57 +1,87 @@
-# 🚀 Day 02/111 - ALTA BASE 111
 
-## 💡 Problem: Swap Two Numbers Using a Temporary Variable
+# 🚀 Day 10/111 - ALTA BASE 111
+
+## 💡 Problem: Validate a Calendar Date
 
 **Difficulty:** Easy
-**Topic:** Programming Basics • Variables
+**Topic:** Programming Basics • Nested If-Else • Conditional Logic
 
 ### 🧠 What I Learned
 
-Today I learned how to **swap the values of two variables using a temporary variable**.
+Today I learned how to check whether a given **day, month, and year form a valid date** according to the Gregorian calendar.
 
-A temporary variable acts like a small storage space that helps us safely store one value while exchanging the values of two variables.
+Different months have different numbers of days. February is special because it has **28 days normally and 29 days in a leap year**.
 
 ### 🔄 Basic Logic
 
-Suppose we have:
+If:
 
 ```text
-a = 10
-b = 20
-```
+Day = 29
+Month = 2
+Year = 2024
+````
 
-To swap them:
-
-```text
-temp = a
-a = b
-b = temp
-```
-
-After swapping:
+First, check whether the month is valid:
 
 ```text
-a = 20
-b = 10
+1 <= Month <= 12
+→ true
 ```
 
-This helped me understand how **variables store values** and how we can manipulate those values using simple programming logic.
+Since the month is February, check whether the year is a leap year:
 
-## 🎯 What This Problem Strengthened
+```text
+2024 % 4 == 0
+→ true
+```
 
-* Understanding variables
-* Assigning values to variables
-* Using a temporary variable
-* Basic problem-solving
-* Step-by-step logical thinking
+Therefore, February has:
 
-Even though this is a simple problem, understanding these fundamentals is important before moving toward more advanced programming and DSA concepts.
+```text
+29 days
+```
+
+Now check the given day:
+
+```text
+29 <= 29
+→ true
+```
+
+Therefore:
+
+```text
+VALID DATE
+```
+
+So the output is:
+
+```text
+VALID DATE
+```
+
+The main idea is to **check the month first, determine the maximum number of days in that month, and then check whether the given day falls within the valid range**.
+
+## 🎯 What I Learned From This Problem
+
+* Nested `if-else` statements
+* Conditional logic
+* Checking valid ranges
+* Working with days and months
+* Understanding different month lengths
+* Checking leap years
+* Using the modulo operator `%`
+* Combining multiple conditions
+* Step-by-step validation
+
+This problem helped me understand how **multiple conditions can be used together to validate real-world data such as calendar dates**.
 
 ## 🔥 Challenge Progress
 
-**Day 02/111 — Completed ✅**
+**Day 10/111 — Completed ✅**
 
-**Streak: 2/111 — Unbroken 🔥**
+**Streak: 10/111 — Unbroken 🔥**
 
 > **One problem a day. One concept at a time. One step closer to becoming a better programmer. 🚀**
 
